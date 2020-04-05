@@ -1,9 +1,8 @@
-let sum = function () {
-  let sum = 0
-  
-  for (let i = 0; i < arguments.length; i++) {
-    sum += arguments[i]
-  }
+module.exports = function sum() {
+    let sum = 0
+
+    for (let i = 0; i < arguments.length; i++) {
+      sum += arguments[i]
+    }
     return sum
-  }
-  
+}
